@@ -1,0 +1,39 @@
+body, html {
+    height: 100%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    color: #003041;
+}
+
+.background-img {
+    background-image: url(../img/carquiz_background.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+span {
+    color: #424f60;
+}
+
+.q_and_a {
+/*    font-family: 'Open Sans', sans-serif;*/
+    color: #f9b189;
+}
+
+.multiple-choice span{
+/*    font-family: 'Open Sans', sans-serif;*/
+    color: #f9b189;
+}
+
+input {
+    background-color: transparent;
+}
+
