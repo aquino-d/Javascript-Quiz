@@ -1,24 +1,19 @@
-body, html {
-    height: 100%;
+html, body { 
+    background: url('../img/carquiz_background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    
     font-family: 'Permanent Marker', cursive;
     font-size: 40px;
     color: #003041;
 }
 
-.background-img {
-    background-image: url(../img/carquiz_background.jpg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.container {
+    padding-top: 2rem;
 }
 
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 span {
     color: #424f60;
 }
@@ -33,7 +28,26 @@ span {
     color: #f9b189;
 }
 
-input {
-    background-color: transparent;
+
+
+
+@media screen and (max-width: 600px) {
+    .html, body {
+        font-size: 25px;
+
+    }
+    .container {
+        padding-top: 1rem;
+    }
 }
+
+@media only screen and (max-width: 600px) {
+    input[type='image'] {
+        max-width: 330px;
+    }
+}
+
+
+
+
 
